@@ -17,7 +17,7 @@ WARNINGS_FILE = "warnings.json"
 CHAT_IDS_FILE = "chat_ids.json"
 BANNED_USERS_FILE = "banned_users.json"
 
-DEVELOPER_ID = 6794200067
+DEVELOPER_ID = XXXXXXXXXX #عنوان ID الخاص بك كمطور
 
 # --- وظائف التحميل والحفظ ---
 def load_replies():
@@ -508,7 +508,7 @@ async def set_commands(app):
 
 # --- الدالة الرئيسية ---
 async def main():
-    TOKEN = "7473569731:AAHXtPE9RH1-k-u3TxNNEF1ADvFjMBoJkKE"
+    TOKEN = "XXXXXXXXXX:XXXXXXXXXXX-X-XXXXXXXXXXXXXXXXXXXX" #عنوان token الخاص بالبوت
     app = ApplicationBuilder().token(TOKEN).build()
 
     # Handlers for slash commands
