@@ -27,7 +27,7 @@ CHAT_IDS_FILE = "chat_ids.json"
 BANNED_USERS_FILE = "banned_users.json"
 PUBLIC_REPLIES_FILE = "replies.json"
 
-DEVELOPER_ID = #عنوان ID الخاص بالمطور
+DEVELOPER_ID = XXXXXXXXXX #عنوان ID الخاص بالمطور
 
 #سينشئ البوت ملفات لحفظ معلومات كل مجموعة على حدة
 print("🚀 البوت بدأ التشغيل...")
